@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/ecarz.css">
+    <title>E-Carz</title>
+</head>
+<body>
+    <header>
+        <div class="left-header">  
+            <a href="#" class="header-logo">
+                <img id="logo-img" src="./images/ecarz_logo.png" alt="E-Carz">
+            </a>           
+            <nav class="navbar">
+                <ul class="navbar-links">
+                    <li class="nav-link"><a href="#">Home</a></li>
+                    <li class="nav-link"><a href="#">About Us</a></li>
+                    <li class="nav-link"><a href="#">Contact</a></li>
+                    <li class="nav-link"><a href="#">Buy</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="cta-btn">
+            <button id="book-demo">Book Demo</button>
+            <button id="pre-order">Pre Order</button>
+        </div>
+    </header>
+    <main>
+        <article class="left-main">
+            <h1>Let's drive the future</h1>
+            <p>We don’t need gas. We don’t create <br> pollution. And we don’t waste your money.</p>
+            <div class="cta2-btn">
+                <button id="free-demo">Free Demo</button>
+                <button id="order-now">Pre-order now</button>
+            </div>
+        </article>
+        <article class="right-main">
+            <img class="banner-image" src="./images/banner_image.png" alt="Precious Madubuike-banner image">
+        </article>
+    </main>
+    <section class="alt-section">
+        <div class="video-container">
+            <video type="video/mp4" autoplay muted loop src="./video/ecar.mp4"></video>
+        </div>
+        <div class="form-div">
+            <h1>Contact us</h1>
+            <p>Our friendly team would love to hear from you.</p>
+            <form>
+                <div class="username">
+                    <div class="form-input">
+                        <label for="first-name">First name</label>
+                        <input type="text" id="first-name" placeholder="First name">
+                    </div>
+                    <div class="form-input">
+                        <label for="last-name">Last name</label>
+                        <input type="text" id="last-name" placeholder="Last name">
+                    </div>
+                </div>
+                <div class="form-input">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="you@company.com">
+                </div>
+                <div class="form-input">
+                    <label for="ph-no">Phone number</label>
+                    <input type="tel" id="ph-no" placeholder="+1 (555) 000 0000">
+                </div>
+                <div class="form-input">
+                    <label for="message">Message</label>
+                    <textarea id="message" cols="30" rows="5" placeholder=""></textarea>
+                </div>
+                <div class="input-check">
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">You agree to our friendly <a href="#">privacy policy</a>.</label>
+                </div>
+                <div class="form-input">
+                    <button type="submit" class="submit-btn">Send message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-col1">
+            <p>&copy; 2022 Workflow, Inc. All rights reserved.</p>
+        </div>
+        <div class="footer-col2">
+            <img src="./images/footer-logo.png" alt="E-Carz footer logo">
+        </div>
+        <div class="social-icons">
+            <img src="./images/fb.png" alt="Facebook logo">
+            <img src="./images/insta.png" alt="Instagram logo">
+            <img src="./images/twi.png" alt="Twitter logo">
+            <img src="./images/git.png" alt="Github logo">
+            <img src="./images/dribble.png" alt="Dribble logo">
+        </div>
+    </footer>
+</body>
+</html>
